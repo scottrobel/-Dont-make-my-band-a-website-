@@ -1,0 +1,48 @@
+svg{
+    fill:white ;
+    width:40;
+    height:40;
+    transition-duration:  0.s;
+}
+
+svg:hover{
+    fill:lightcoral;
+}
+path{
+    transform: "translate(0.000000,1970.000000) scale(0.100000,-0.100000)";
+    stroke: "none";
+}
+body{
+    background-image: url('./photo.jpg'), url('./photo2.jpg'), url('./photo3.jpg');
+}
+#nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style:none;
+    margin:0;
+    padding: 20 0 0 0;
+    text-align:center;
+}
+#nav li{
+    display:inline;
+    padding: 0 10;
+    width:40;
+    height:40;
+}
+html, body {
+    height: 100%;
+    font-family: 'Arial';
+    font-size: 14px;
+    
+}
+.center{
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.logo{
+    margin-top:100;
+}
